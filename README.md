@@ -28,6 +28,7 @@ The obtained dataset has been randomly partitioned into two sets, where 70% of t
 
 # Objectives
 Through a R script, run_analysis.R (see file in the same repo), create two output data sets. Requirements as following:
+
 1. Merges the training and the test sets to create one data set.
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
