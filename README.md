@@ -36,11 +36,18 @@ Through a R script, run_analysis.R (see file in the same repo), create two outpu
 
 # Script Summary
 run_analysis.R was designed to do following:
+
 1. Read in feature.txt and identify the column numbers and names for meansurements related to mean and standard deviation. Only features with both mean and standard deviation were selected here, i.e. 33 means and 33 standard deviations.
+
 2. Rename features with appropriate names to indicate domain(time or frequency), device(accelerometer, gyroscope),  acceleration signals (body or gravity), Jerk from body signal, and magnitude.
+
 3. Select interested features identified in previous steps from X_train and X_test, and give corresponding column names created from 2.
+
 4. Column bind X_train, Subject_train, and y_train into one data set and repeat the same thing to create one test data set.
+
 5. Row bind the train and test data set created from the previuos step into one full data set.
+
 6. Merge the full data set with activity_labels to obtain activity names.
+
 7. Apply ddply to create tidy data containing average for each subject and activity.
 
