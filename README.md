@@ -29,9 +29,13 @@ The obtained dataset has been randomly partitioned into two sets, where 70% of t
 # Objectives
 Through a R script, run_analysis.R (see file in the same repo), create two output data sets. Requirements as following:
 1. Merges the training and the test sets to create one data set.
+
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+
 3. Uses descriptive activity names to name the activities in the data set
+
 4. Appropriately labels the data set with descriptive activity names. 
+
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 # Script Summary
